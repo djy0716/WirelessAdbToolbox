@@ -1,0 +1,19 @@
+Wireless ADB Toolbox v1.1.0 validation — 2026-07-21
+
+Verified:
+- MainActivity Java compilation: PASS
+- DEX generation and parsing: PASS
+- APK ZIP integrity: PASS
+- Binary AndroidManifest parsing: PASS
+- Package: com.yongwei.adbtoolbox
+- Version: 1.1.0 (versionCode 2)
+- Launcher activity: com.yongwei.adbtoolbox.MainActivity
+- minSdk: 23
+- targetSdk: 35
+- APK Signature Scheme v1: PASS
+- APK Signature Scheme v2: PASS
+- Signature verification errors: none
+
+The APK was rebuilt and cryptographically verified in a Linux build container.
+No physical Android device was available for an end-to-end pairing/push/install test.
+The APK uses a newly generated Android debug certificate and cannot update v1.0 in place.

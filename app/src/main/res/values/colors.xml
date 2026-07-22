@@ -1,0 +1,6 @@
+<resources>
+    <color name="bg">#101418</color><color name="panel">#182028</color><color name="stroke">#34414D</color>
+    <color name="text">#F2F6F8</color><color name="muted">#AAB7C2</color><color name="accent">#30C48D</color>
+    <color name="accent_dark">#1B8F68</color><color name="danger">#B64E56</color><color name="terminal">#06090B</color>
+    <color name="terminal_text">#7CFFB2</color>
+</resources>
