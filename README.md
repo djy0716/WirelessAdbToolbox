@@ -49,25 +49,6 @@
 - Android Build Tools 36.0.0
 - 可访问 Google Maven、Maven Central 和 JitPack
 
-```bash
-./gradlew assembleDebug
-```
-
-输出位置：
-
-```text
-app/build/outputs/apk/debug/app-debug.apk
-```
-
-项目配置：
-
-- 包名：`com.yongwei.adbtoolbox`
-- versionCode：`2`
-- versionName：`1.1.0`
-- minSdk：`23`
-- targetSdk：`35`
-- compileSdk：`36`
-
 ## 安全提醒
 
 ADB shell 可以安装应用、修改设置，并访问调试权限允许读取的数据。仅连接你拥有或明确获授权管理的设备。不要在公共网络开放传统 5555 端口；使用结束后建议关闭无线调试。
